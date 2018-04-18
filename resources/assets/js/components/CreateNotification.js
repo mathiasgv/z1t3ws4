@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import axios from 'axios';
 import TableRow from './TableRow';
 
-let uri = 'http://35.229.48.205/react_app/notifications';
+let uri = 'http://localhost:3000/notifications';
 
 function updateState(notifications){
     this.setState({notifications});
